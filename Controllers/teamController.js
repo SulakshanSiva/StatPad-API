@@ -8,7 +8,7 @@ const teamController = {
 
         await res.status(200).json({
             message: `Got ${req.body.clubName} squad stats!`,
-            data: stats
+            stats: stats
         });
     }
 }
