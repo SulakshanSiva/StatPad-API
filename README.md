@@ -1,7 +1,7 @@
 # StatPad-API
 
 ## Project Description
-A data scraper that scrapes Premier League Statistics and displays them to the user.
+This project was built to display statistics of selected teams and players from the Premier League 2022/23 Season. I created a web scraper using Python and BeautifulSoup to grab data from a Premier League site. I populated my Supabase database using this data, and built a NodeJS and ExpressJS backend to retrieve this data through GET requests. My front-end was created using ReactJS, which used axios to connect my server and client.
 
 <img width="1440" alt="Screenshot 2024-05-11 at 1 26 53 PM" src="https://github.com/SulakshanSiva/StatPad-API/assets/68358652/bca91175-c4e2-42df-8eeb-21d457d12f3e">
 
@@ -11,6 +11,7 @@ A data scraper that scrapes Premier League Statistics and displays them to the u
 * [![Node][Node.js]][Node-url]
 * [![Express][Express.js]][Express-url]
 * [![Supabase][Supabase.db]][Supabase-url]
+* [![Python][Python]][Python-url]
 
 ## Features
 
@@ -38,3 +39,5 @@ Player Stats displays the statistics of a selected player, with 2 players being 
 [Express-url]: https://expressjs.com/
 [Supabase.db]: https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white
 [Supabase-url]: https://supabase.com/
+[Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python-url]: https://www.python.org/
